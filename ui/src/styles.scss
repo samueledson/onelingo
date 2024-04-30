@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+
+:root {
+
+  --lingo-background-color: rgb(88, 204, 2);
+  --lingo-border-radius: 0.75rem;
+  --lingo-text-color: rgb(255, 255, 255);
+  --lingo-padding: 1rem;
+  --lingo-shadow-color: rgb(88, 167, 0);
+
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body { height: 100%; }
+body { margin: 0; font-family: 'Valera Round', "Helvetica Neue", sans-serif; }
